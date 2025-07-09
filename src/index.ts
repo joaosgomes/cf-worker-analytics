@@ -130,7 +130,7 @@ export default {
 				format: 'JSONEachRow',
 			});
 
-			return new Response('Ok');
+			return new Response('OK');
 
 		} catch (error) {
 			return new Response(`Error: ${error}`, { status: 500 });
